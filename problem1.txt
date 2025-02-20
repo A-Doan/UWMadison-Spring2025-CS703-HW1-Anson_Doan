@@ -1,13 +1,13 @@
-a. 
-b. 
-c. 
-d. 
-e. 
-f. 
-g. 
-h. 
-i. 
-j. 
+a. True
+b. False
+c. True
+d. False
+e. False
+f. True
+g. True
+h. True
+i. True
+j. True
 
-k. 
-l. 
+k. True
+l. True
