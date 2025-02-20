@@ -14,4 +14,5 @@ not (P_x2 and P_y2)
 At a high level, each node has only one color and for every edge, the two connected nodes do not have the same color.
 
 
-b. 
+b.
+Graph g returned unsat
