@@ -1,2 +1,9 @@
 1. 
+For each node i, let a_i and b_i represent the start and end point, respectively, for that node's interval.
+For all a_i and b_i, a_i < b_i.
+For each edge (x, y) where x and y are nodes on the graph, the following must be true:
+(a_x < b_x < a_y) or (b_x < a_x < b_y)
+For each pair of nodes (p, q) where p and q are not adjacent, the following must be true:
+(b_p < a_q) or (b_q < a_p)
+
 2. 
