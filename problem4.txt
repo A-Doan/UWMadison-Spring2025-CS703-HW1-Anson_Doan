@@ -16,3 +16,4 @@ At a high level, each node has only one color and for every edge, the two connec
 
 b.
 Graph g returned unsat
+Graph h returned sat
