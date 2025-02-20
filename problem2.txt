@@ -1,5 +1,5 @@
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Satisfiable on any non-empty set with f as the identity function and y=x.
+2. Not satisfiable since it requires that f(x) equals every possible y, which is impossible.
+3. Satisfiable on any non-empty set with the function f(x,z)=z and z=y.
+4. Satisfiable on any non-empty set with f as the identity function.
+5. Not satisfiable since string concatenation is not commutative.
