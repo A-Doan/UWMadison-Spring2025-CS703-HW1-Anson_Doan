@@ -1,6 +1,6 @@
-a1. 
-a2. 
-a3. 
-a4. 
+a1. False for naturals, false for rationals, true for reals. The only numbers that satisfy this formula are 2^0.5 and -(2^0.5), neither of which is natural or rational.
+a2. False for naturals, true for rationals, true for reals. Both rationals and reals contain y=-x, but naturals do not for x!=0 since there are no negative natural numbers.
+a3. True for all if you consider 0 to be a natural number, false for naturals if zero is not a natural number. For rationals and reals this is always satisfiable with z=x*y-x; with naturals, in the case of y=1 then x*y=x and this is only satisfiable if z=0, so whether this formula is true depends on if 0 is a natural number.
+a4. False for all. The first part (x+1=0) is outright unsatisfiable for naturals since x can't be negative; for rationals and reals it is satisfiable only with x=-1, but then the second part (y*y=x) requires that y=(-1)^0.5, which is a complex (i.e. non-rational and non-real) number.
 
-b. 
+b. For all x, x = |x|
