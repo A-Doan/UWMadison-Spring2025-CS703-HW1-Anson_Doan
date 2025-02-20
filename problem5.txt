@@ -11,4 +11,4 @@ For each pair of nodes (p, q) where p and q are not adjacent, the following must
 (b_p < a_q) or (b_q < a_p)
 This checks that intervals don't overlap (that is, the end point of one interval is before the start point of the other).
 
-2. 
+2. This graph returns unsat.
