@@ -1,2 +1,17 @@
-a. 
+a.
+Let P_ic be a boolean variable that is true if node i is assigned color c, and false otherwise.
+For each node i, the following constraints are true:
+(P_i0 or P_i1 or P_i2)
+not (P_i0 and P_i1)
+not (P_i0 and P_i2)
+not (P_i1 and P_i2)
+
+For each edge (x,y) where x and y are nodes in the graph, the following constraints are true:
+not (P_x0 and P_y0)
+not (P_x1 and P_y1)
+not (P_x2 and P_y2)
+
+At a high level, each node has only one color and for every edge, the two connected nodes do not have the same color.
+
+
 b. 
