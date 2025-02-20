@@ -4,7 +4,7 @@ For all a_i and b_i, a_i < b_i.
 This checks that interval start and end points are in order.
 
 For each edge (x, y) where x and y are nodes on the graph, the following must be true:
-(a_x < b_x < a_y) or (b_x < a_x < b_y)
+(a_x < a_y < b_x) or (a_y < a_x < b_y)
 This checks that intervals overlap when edges exist (that is, the start point of one interval is between the start and end points of the other).
 
 For each pair of nodes (p, q) where p and q are not adjacent, the following must be true:
